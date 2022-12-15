@@ -22,13 +22,37 @@
 
     main{
         padding: 0 5px;
-        justify-content: start;
     }
     .cabecalho .titulo{
         font-size: 22px;
+        line-height: normal;
+    }
+
+    .selecao-de-personagens{
+        flex-direction: column;
+        gap: 50px;
     }
 
     .selecao-de-personagens .personagem-grande{
+        height: 40vh;
+    }
+
+    .selecao-de-personagens .personagem-grande img{
+        width: 250px;
+        height: 350px;
+
+    }
+
+    .selecao-de-personagens .personagem-grande .nome::before{
+        bottom: -13px;
+        height: 20px;
+    }
+
+    .selecao-de-personagens .personagem-grande .nome h2{
+        font-size: 20px;
+    }
+
+    .selecao-de-personagens .personagem-jogador-2{
         display: none;
     }
     
