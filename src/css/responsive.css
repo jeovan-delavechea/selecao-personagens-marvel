@@ -21,7 +21,7 @@
     }
 
     main{
-        padding: 0 3px;
+        padding: 0 5px;
     }
     .cabecalho .titulo{
         font-size: 20px;
@@ -30,7 +30,7 @@
 
     .selecao-de-personagens{
         flex-direction: column;
-        gap: 50px;
+        gap: 28px;
     }
 
     .selecao-de-personagens .personagem-grande{
@@ -38,8 +38,8 @@
     }
 
     .selecao-de-personagens .personagem-grande img{
-        width: 250px;
-        height: 350px;
+        width: 220px;
+        height: 300px;
 
     }
 
@@ -63,7 +63,7 @@
         height: 38vh;
     }
     .selecao-de-personagens .personagem-grande img{
-        width: 230px;
-        height: 280px;
+        width: 200px;
+        height: 270px;
     }
 }
