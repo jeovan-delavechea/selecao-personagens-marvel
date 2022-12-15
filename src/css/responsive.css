@@ -21,10 +21,10 @@
     }
 
     main{
-        padding: 0 5px;
+        padding: 0 3px;
     }
     .cabecalho .titulo{
-        font-size: 22px;
+        font-size: 20px;
         line-height: normal;
     }
 
@@ -34,7 +34,7 @@
     }
 
     .selecao-de-personagens .personagem-grande{
-        height: 40vh;
+        height: 44vh;
     }
 
     .selecao-de-personagens .personagem-grande img{
@@ -56,4 +56,14 @@
         display: none;
     }
     
+}
+
+@media(max-height: 786px){
+    .selecao-de-personagens .personagem-grande{
+        height: 38vh;
+    }
+    .selecao-de-personagens .personagem-grande img{
+        width: 230px;
+        height: 280px;
+    }
 }
