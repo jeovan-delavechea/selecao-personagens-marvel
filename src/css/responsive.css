@@ -66,4 +66,13 @@
         width: 200px;
         height: 270px;
     }
+
+    .selecao-de-personagens .personagem-grande .nome::before{
+        bottom: -13px;
+        height: 20px;
+    }
+
+    .selecao-de-personagens .personagem-grande .nome h2{
+        font-size: 20px;
+    }
 }
