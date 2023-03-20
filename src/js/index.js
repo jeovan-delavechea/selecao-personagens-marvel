@@ -1,17 +1,3 @@
-/*
-ANTES: temos que criar as variáveis dos elementos a serem manipulados
-
-OBJETIVO - quando passar o mouse por cima do personagem, temos que:
-    
-    - colocar a classe selecionado no personagem que passarmos o mouse em cima, para adicionar a animação nele
-
-    - remover a classe selecionado do elemento inicial 
-
-    - alterar a imagem do jogador 1
-    
-    - alterar o nome do jogador 1
-*/
-
 const personagens = document.querySelectorAll('.personagem');
 
 
